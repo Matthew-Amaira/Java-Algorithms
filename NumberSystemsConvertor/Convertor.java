@@ -2,7 +2,7 @@ public class Convertor{
     static String binaryValue = "";
     static int decimalValue = 0;
     public static void main(String[] args){
-        System.out.println(binaryToDecimal("1111"));
+        System.out.println();
     }
 
     public static String decimalToBinary(int x){
