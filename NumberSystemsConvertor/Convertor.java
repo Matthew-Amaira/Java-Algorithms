@@ -34,4 +34,14 @@ public class Convertor{
         ;
         return decimalValue+add+binaryToDecimal(bin.substring(1));
     }
+
+    public static int binaryToDecimalstudy(String bin){
+        int conversionValue = 1;
+        for(int i=1; i<=bin.length(); i++){
+            if(bin.charAt(bin.length()-i) == '1')
+                decimalValue += conversionValue;
+            conversionValue *=2;
+        }
+        return decimalValue;
+    }
 }
